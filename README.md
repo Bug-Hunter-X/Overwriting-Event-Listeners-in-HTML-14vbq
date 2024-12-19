@@ -1,0 +1,2 @@
+# Overwriting Event Listeners in HTML
+This example demonstrates an uncommon error in HTML where event listeners are overwritten, leading to unexpected behavior. The `onclick` event listener for the div element is assigned twice. Only the last assignment will be effective, thus resulting in only the second alert being triggered.
