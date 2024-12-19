@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error Solution</title>
+</head>
+<body>
+  <div id="myDiv">
+    This is some text.
+  </div>
+
+  <script>
+    //Correct way to add multiple event listeners
+    document.getElementById("myDiv").addEventListener("click", function() {
+      alert("Div clicked!");
+    });
+    document.getElementById("myDiv").addEventListener("click", function() {
+      alert("Div clicked again!");
+    });
+  </script>
+</body>
+</html>
